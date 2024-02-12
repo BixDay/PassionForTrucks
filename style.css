@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+}
+
+html{
+    font-size: 62.5%;
+    /*background-color: black;*/ /*Aquí se integra el fondo de la pagina web*/
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header{
+    width: 100%;
+    height: auto;
+    margin-top: 2rem;
+    background-color: white;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header nav div .categorias-header{
+    width: 25rem;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .categorias-header a{
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    color: #000000;
+}
+
+nav .logo-header img{
+    width: 10rem;
+}
+
+nav .contacto-header {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+nav .contacto-header img{
+    width: 2rem;
+    margin-right: 1rem;
+}
+
+.dropdown {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+}
+
+.dropdown-menu{
+    width: 30rem;
+}
