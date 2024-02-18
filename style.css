@@ -23,14 +23,20 @@ header{
     background-color: white;
 }
 
+img {
+    pointer-events: none;
+  }
+
 header nav{
-    display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    width: auto;
+    background-color: black;
 }
 
 header nav div .categorias-header{
-    width: 25rem;
+    
+    width: auto;
     height: auto;
     display: flex;
     list-style: none;
@@ -39,35 +45,54 @@ header nav div .categorias-header{
 }
 
 nav .categorias-header a{
-    margin-right: 0.5rem;
-    margin-left: 0.5rem;
-    color: #000000;
-}
-
-nav .logo-header img{
-    width: 10rem;
-}
-
-nav .contacto-header {
     width: auto;
+    height: auto;
+    margin: 0 1rem 0 1rem;
+    color: whitesmoke;
+    font-size: 120%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.logo-header{
     display: flex;
     justify-content: center;
-    align-items: flex-start;
-    flex-direction: row;
-    justify-content: flex-end;
 }
-nav .contacto-header img{
-    width: 2rem;
+
+.logo-header img{
+    width: 20rem;
+}
+
+.contacto-header{
+    display: flex;
+    justify-content: center;
+}
+
+.contacto-header img{
+    width: 4rem;
+    height: 4rem;
     margin-right: 1rem;
+}
+
+.contacto-header a{
+    color: black;
+    font-size: 3rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .dropdown {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.3rem;   
 }
 
 .dropdown-menu{
-    width: 30rem;
+    border-radius: 3rem;
+    width: auto;
+    background-color: #000000;
+}
+
+.dropdown-item{
+    color: #000000;
 }
 
 main .logo-titulo{
@@ -98,71 +123,108 @@ main .logo-titulo p {
     justify-content: center;
 }
 .mini-banner-categorias{
-    border: 3px lightgray solid;
+    border: 2px whitesmoke solid;
     border-radius: 1rem;
     margin: 1rem;
     width: 30rem;
     height: 15rem;
 }
 
-.mini-banner-uno{
-    background-image: url(./img/banner/Mini-Banner-1.png);
+.mini-banner-bombilleria-led{
+    background-image: url(./img/banner/Bombilleria-Led.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     border-radius: 1rem;
 }
 
-.mini-banner-dos{
-    background-image: url(./img/banner/Mini-Banner-2.png);
+.mini-banner-bombilleria-led a{
+    width: 30rem;
+    height: 15rem;
+}
+
+.mini-banner-exploradoras-led{
+    background-image: url(./img/banner/Exploradoras-Led.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     border-radius: 1rem;
 }
 
-.mini-banner-tres{
-    background-image: url(./img/banner/Mini-Banner-3.png);
+.mini-banner-accesorios-camion{
+    background-image: url(./img/banner/Accesorios-Camión.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     border-radius: 1rem;
 }
 
-.mini-banner-cuatro{
-    background-image: url(./img/banner/Mini-Banner-4.png);
+.mini-banner-luces-navegacion{
+    background-image: url(./img/banner/Luces-Navegación.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     border-radius: 1rem;
 }
 
-.mini-banner-cinco{
-    background-image: url(./img/banner/Mini-Banner-5.png);
+.mini-banner-cornetas-camion{
+    background-image: url(./img/banner/Cornetas-Camión.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     border-radius: 1rem;
 }
 
-.mini-banner-seis{
-    background-image: url(./img/banner/Mini-Banner-6.png);
+.mini-banner-tapetes-camion{
+    background-image: url(./img/banner/Tapetes-Camión.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     border-radius: 1rem;
 }
 
-.mini-banner-siete{
-    background-image: url(./img/banner/Mini-Banner-7.png);
+.mini-banner-farolas{
+    background-image: url(./img/banner/Farolas.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     border-radius: 1rem;
 }
 
-.mini-banner-ocho{
-    background-image: url(./img/banner/Mini-Banner-8.png);
+.mini-banner-modulos-led{
+    background-image: url(./img/banner/Modulos-Led.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 1rem;
+}
+
+.mini-banner-guarda-polvos{
+    background-image: url(./img/banner/Guarda-Polvos.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 1rem;
+}
+
+.mini-banner-sobretapas-pernos{
+    background-image: url(./img/banner/Sobretapas-Pernos.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 1rem;
+}
+
+.mini-banner-plumillas{
+    background-image: url(./img/banner/Plumillas.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 1rem;
+}
+
+.mini-banner-espejos-camion{
+    background-image: url(./img/banner/Espejos-Camión.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -182,6 +244,36 @@ main .logo-titulo p {
     height: 30rem;
 }
 
+.productos-passion-for-trucks img{
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    width: 18.5rem;
+    height: 21.5rem;
+}
+
+.productos-passion-for-trucks h3{
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.cuadro-productos a{
+    color: white;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px whitesmoke solid;
+    border-radius: 3rem;
+    background-color: rgb(255, 42, 0);
+    height: 3.5rem;
+}
+
 .mini-banner-publicidad{
     display: flex;
     justify-content: center;
@@ -189,7 +281,7 @@ main .logo-titulo p {
 }
 
 .banner-publicidad{
-    border: 3px red solid;
+    border: 3px blue solid;
     border-radius: 1rem;
     margin: 1rem;
     width: 42rem;
@@ -218,4 +310,18 @@ main .logo-titulo p {
     background-position: center;
     background-size: cover;
     border-radius: 1rem;
+}
+
+.banner-blog{
+    width: 25rem;
+    height: 25rem;
+    border: 3px red solid;
+    margin: 0 2rem 0 2rem;
+}
+
+.caja-testimoniales{
+    border: 3px red solid;
+    margin: 0 1rem 0 1rem;
+    width: auto;
+    height: 20rem;
 }
