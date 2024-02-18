@@ -151,6 +151,22 @@ main .logo-titulo p {
     border-radius: 1rem;
 }
 
+.mini-banner-cornetas-camion{
+    background-image: url(./img/banner/Cornetas-Camión.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 1rem;
+}
+
+.mini-banner-sobretapas-pernos{
+    background-image: url(./img/banner/Sobretapas-Pernos.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 1rem;
+}
+
 .mini-banner-accesorios-camion{
     background-image: url(./img/banner/Accesorios-Camión.png);
     background-repeat: no-repeat;
@@ -167,38 +183,6 @@ main .logo-titulo p {
     border-radius: 1rem;
 }
 
-.mini-banner-cornetas-camion{
-    background-image: url(./img/banner/Cornetas-Camión.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    border-radius: 1rem;
-}
-
-.mini-banner-tapetes-camion{
-    background-image: url(./img/banner/Tapetes-Camión.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    border-radius: 1rem;
-}
-
-.mini-banner-farolas{
-    background-image: url(./img/banner/Farolas.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    border-radius: 1rem;
-}
-
-.mini-banner-modulos-led{
-    background-image: url(./img/banner/Modulos-Led.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    border-radius: 1rem;
-}
-
 .mini-banner-guarda-polvos{
     background-image: url(./img/banner/Guarda-Polvos.png);
     background-repeat: no-repeat;
@@ -207,8 +191,8 @@ main .logo-titulo p {
     border-radius: 1rem;
 }
 
-.mini-banner-sobretapas-pernos{
-    background-image: url(./img/banner/Sobretapas-Pernos.png);
+.mini-banner-tapetes-camion{
+    background-image: url(./img/banner/Tapetes-Camión.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -225,6 +209,22 @@ main .logo-titulo p {
 
 .mini-banner-espejos-camion{
     background-image: url(./img/banner/Espejos-Camión.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 1rem;
+}
+
+.mini-banner-modulos-led{
+    background-image: url(./img/banner/Modulos-Led.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 1rem;
+}
+
+.mini-banner-farolas{
+    background-image: url(./img/banner/Farolas.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
