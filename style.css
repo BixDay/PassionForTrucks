@@ -281,35 +281,31 @@ main .logo-titulo p {
 }
 
 .banner-publicidad{
-    border: 3px blue solid;
-    border-radius: 1rem;
+    border-radius: 0.25rem;
     margin: 1rem;
     width: 42rem;
     height: 21rem;
 }
 
 .banner-publicidad-uno{
-    background-image: url(./img/banner/Mini-Banner-1.png);
+    background-image: url(./img/banner/Banner-publicidad-uno.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    border-radius: 1rem;
 }
 
 .banner-publicidad-dos{
-    background-image: url(./img/banner/Mini-Banner-1.png);
+    background-image: url(./img/banner/Banner-publicidad-dos.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    border-radius: 1rem;
 }
 
 .banner-publicidad-tres{
-    background-image: url(./img/banner/Mini-Banner-1.png);
+    background-image: url(./img/banner/Banner-publicidad-tres.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    border-radius: 1rem;
 }
 
 .mini-banner-blog{
@@ -319,53 +315,14 @@ main .logo-titulo p {
 }
 
 .banner-blog{
-    border: 3px violet solid;
-    border-radius: 1rem;
     margin: 1rem;
-    width: 42rem;
-    height: 21rem;
+    width: 40rem;
+    height: 40rem;
 }
-.banner-blog-uno{
-    background-image: url(./img/banner/Mini-Banner-1.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    border-radius: 1rem;
-}
-.banner-blog-dos{
-    background-image: url(./img/banner/Mini-Banner-1.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    border-radius: 1rem;
-}
-.banner-blog-tres{
-    background-image: url(./img/banner/Mini-Banner-1.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    border-radius: 1rem;
-}
-.banner-blog-cuatro{
-    background-image: url(./img/banner/Mini-Banner-1.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    border-radius: 1rem;
-}
-.banner-blog-cinco{
-    background-image: url(./img/banner/Mini-Banner-1.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    border-radius: 1rem;
-}
-.banner-blog-seis{
-    background-image: url(./img/banner/Mini-Banner-1.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    border-radius: 1rem;
+
+.imagen-blog img{
+    background-image: url(./img/banner/Banner-publicidad-dos.png);
+    width: 100%;
 }
 
 .mini-banner-testimonial{
