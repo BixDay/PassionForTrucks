@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+}
+
+html{
+    font-size: 62.5%;
+    /*background-color: black;*/ /*Aquí se integra el fondo de la pagina web*/
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header{
+    width: 100%;
+    height: auto;
+    margin-top: 2rem;
+    background-color: white;
+}
+
+img {
+    pointer-events: none;
+  }
+
+header nav{
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    background-color: black;
+}
+
+header nav div .categorias-header{
+    
+    width: auto;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .categorias-header a{
+    width: auto;
+    height: auto;
+    margin: 0 1rem 0 1rem;
+    color: whitesmoke;
+    font-size: 120%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.logo-header{
+    display: flex;
+    justify-content: center;
+}
+
+.logo-header img{
+    width: 20rem;
+}
+
+.contacto-header{
+    display: flex;
+    justify-content: center;
+}
+
+.contacto-header img{
+    width: 4rem;
+    height: 4rem;
+    margin-right: 1rem;
+}
+
+.contacto-header a{
+    color: black;
+    font-size: 3rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.dropdown {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;   
+}
+
+.dropdown-menu{
+    border-radius: 3rem;
+    width: auto;
+    background-color: #000000;
+}
+
+.dropdown-item{
+    color: #000000;
+}
+
+
+
+
+
+
+
+
+footer section .redes-sociales{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 5rem;
+}
+
+footer section .redes-sociales a {
+    margin: 0 1rem 0 1rem;
+    border-radius: 50%;
+}
+
+footer section .redes-sociales-facebook{
+    background-image: url(../img/socialmedia/facebook.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 4rem;
+    height: 4rem;
+}
+
+footer section .redes-sociales-instagram{
+    background-image: url(../img/socialmedia/instagram.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 4rem;
+    height: 4rem;
+}
+
+footer section .redes-sociales-whatsapp{
+    background-image: url(../img/socialmedia/whatsapp.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 4rem;
+    height: 4rem;
+}
+
+footer section .redes-sociales-youtube{
+    background-image: url(../img/socialmedia/youtube.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 4rem;
+    height: 4rem;
+}
+
+footer section .redes-sociales-tiktok{
+    background-image: url(../img/socialmedia/tiktok.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 4rem;
+    height: 4rem;
+}
