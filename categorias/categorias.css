@@ -95,6 +95,50 @@ nav .categorias-header a{
     color: #000000;
 }
 
+.mini-banner-publicidad{
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0 2rem 0;
+}
+
+.banner-publicidad{
+    margin: 1rem;
+    width: 50rem;
+    height: 70rem;
+}
+
+.banner-publicidad-uno{
+    background-image: url(../img/catalogo/Bombillos-1.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.banner-publicidad-dos{
+    background-image: url(../img/catalogo/Bombillos-2.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.banner-publicidad-tres{
+    background-image: url(../img/catalogo/Bombillos-3.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.banner-publicidad-cuatro{
+    background-image: url(../img/catalogo/Bombillos-4.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.banner-publicidad-cinco{
+    background-image: url(../img/catalogo/Bombillos-5.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
 
 
 
