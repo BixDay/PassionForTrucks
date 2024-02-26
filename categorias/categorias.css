@@ -34,6 +34,80 @@ header nav{
     background-color: black;
 }
 
+.red{
+    position: fixed;
+    top: 25rem;
+    z-index: 100;
+    left: 0;
+}
+
+.red a{
+    width: 50%;
+    height: 50%;
+}
+
+#facebook a{
+    background: #3b5998;
+    padding: 1rem 2rem;
+    color: #fff;
+    text-decoration: none;
+    width: 5.5rem;
+    transition: all .4s ease;
+}
+#facebook a:hover{
+    background: #3b5998;
+    padding: 1rem 5rem;
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+}
+
+#instagram a{
+    background: #833ab4;
+    background: linear-gradient(to right,#833ab4,#fd1d1d,#fcb045);
+    padding: 1rem 2rem;
+    color: #fff;
+    text-decoration: none;
+    width: 5.5rem;
+    transition: all .4s ease;
+}
+#instagram a:hover{
+    background: #833ab4;
+    background: linear-gradient(to right,#833ab4,#fd1d1d,#fcb045);
+    padding: 1rem 5rem;
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+}
+
+#whatsapp a{
+    background: #00e461;
+    padding: 1rem 2rem;
+    color: #fff;
+    text-decoration: none;
+    width: 5.5rem;
+    transition: all .4s ease;
+}
+#whatsapp a:hover{
+    background:  #00e461;
+    padding: 1rem 5rem;
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+}
+
+#tiktok a{
+    background: #000000;
+    padding: 1rem 2rem;
+    color: #fff;
+    text-decoration: none;
+    width: 5.5rem;
+    transition: all .4s ease;
+}
+#tiktok a:hover{
+    background: #000000;
+    padding: 1rem 5rem;
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+}
+
 header nav div .categorias-header{
     
     width: auto;
