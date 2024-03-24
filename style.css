@@ -118,8 +118,8 @@ header nav{
 
 .slider .slide-track{
     display: flex;
-    animation: scroll 40s linear infinite;
-    -webkit-animation: scroll 40s linear infinite;
+    animation: scroll 10s linear infinite;
+    -webkit-animation: scroll 10s linear infinite;
     width: calc(200px * 12);
 }
 
@@ -374,6 +374,9 @@ main .logo-titulo p {
     height: 30rem;
 }
 
+.productos-passion-for-trucks h3{
+    color: white;
+}
 .productos-passion-for-trucks img{
     
     display: flex;
@@ -381,6 +384,10 @@ main .logo-titulo p {
     margin-top: 1rem;
     width: 18.5rem;
     height: 21.5rem;
+}
+
+.fondo-productos{
+    background-color: black;
 }
 
 .productos-passion-for-trucks h3{
@@ -404,6 +411,10 @@ main .logo-titulo p {
     background-color: rgb(255, 42, 0);
     height: 3.5rem;
     margin-top: 1rem;
+}
+
+.fondo-mini-banner{
+    background-color: rgb(75, 0, 103);
 }
 
 .mini-banner-publicidad{
