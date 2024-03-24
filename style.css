@@ -466,6 +466,7 @@ main .logo-titulo p {
 .imagen-blog img{
     background-image: url(./img/banner/Banner-publicidad-dos.png);
     width: 100%;
+    border-radius: 3rem;
 }
 
 section div .img-fluid a{
@@ -572,4 +573,13 @@ footer section .redes-sociales-tiktok{
     background-size: cover;
     width: 4rem;
     height: 4rem;
+}
+
+.logo-footer{
+    display: flex;
+    justify-content: center;
+}
+
+.logo-footer img{
+    width: 18rem;
 }
