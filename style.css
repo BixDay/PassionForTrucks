@@ -109,6 +109,40 @@ header nav{
     border-bottom-right-radius: 3rem;
 }
 
+.slider{
+    width: 100vw;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider .slide-track{
+    display: flex;
+    animation: scroll 40s linear infinite;
+    -webkit-animation: scroll 40s linear infinite;
+    width: calc(200px * 12);
+}
+
+.slider .slide{
+    width: 200px;
+}
+
+.slider .slide img{
+    width: 100%;
+}
+
+@keyframes scroll {
+    0%{
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    100%{
+        -webkit-transform: translateX(calc(-200px * 6));
+        transform: translateX(calc(-200px * 6));
+    }
+}
+
 header nav div .categorias-header{
     
     width: auto;
@@ -130,10 +164,15 @@ nav .categorias-header a{
 }
 
 .promo{
-    background-color: #8f0000;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(255, 42, 0);
 }
 
-.promo a{
+.promo p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
     color: whitesmoke;
 }
 
@@ -143,7 +182,7 @@ nav .categorias-header a{
 }
 
 .logo-header img{
-    width: 20rem;
+    width: 30rem;
 }
 
 .contacto-header{
